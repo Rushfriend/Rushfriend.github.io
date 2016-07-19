@@ -1,0 +1,1 @@
+# Rushfriend.github.io
