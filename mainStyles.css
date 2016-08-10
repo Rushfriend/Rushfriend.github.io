@@ -1,0 +1,129 @@
+body  {
+	background: grey;
+	background-image: url("WebsiteHomeBackground.png");
+	font-family: arial;
+	margin:0;
+}
+h1 {
+	color: blue
+}
+
+/* Youtube button top right */
+.youtube {
+	color: #e52d27;
+	float: right;
+	padding: 30px 30px;
+	background-color: white;
+}
+
+.youtube:hover:not(.active) {
+	background-color: #e52d27;
+	color: white;
+}
+
+/* Twitter button top right */
+.twitter {
+	color: #55acee;
+	float: right;
+	padding: 30px 40px;
+	background-color: white;
+}
+
+.twitter:hover:not(.active) {
+	background-color: #55acee;
+	color: white
+}
+
+/* Twitch button top right */
+.twitch {
+	color: #6441A5;
+	float: right;
+	padding: 30px 40px;
+	background-color: white;
+}
+
+.twitch:hover:not(.active) {
+	color: white;
+	background-color: #6441A5;
+}
+
+/* Main nav. bar */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1a61e6;
+}
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: white;
+	color: #1a61e6;
+}
+
+.active {
+	background-color: white;
+	color: #1a61e6;
+}
+
+
+/* Main text */
+p {
+	text-align: center;
+}
+
+.HomeTEXTmiddle {
+	color: white;
+	margin: auto;
+	width: 450px;
+	padding: 10px;
+	background-color: #1a61e6;
+	margin-top: 350px;
+	position: relative;
+	right: 200px;
+}
+
+/* Twitter feed */
+.twitter-timeline {
+	float: right;
+	clear: right;
+}
+
+/* Sidebar */
+.Sidebar {
+	color: #1a61e6;
+	width: 357px;
+	padding: 15px;
+	background-color: white;
+	float: right;
+	text-align: left;
+}
+
+/* Graphics Google Form */
+.GraphicsForm {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-right: 16px;
+}
+
+/* Projects */
+.projects {
+	background-color: #1a61e6
+}
+
+/* Rest */
+.floatRIGHT {
+	float: right;
+}
+
