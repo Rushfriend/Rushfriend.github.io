@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Rushfriend (Projects) > Windle</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="red darken-3" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"><img src="WebsiteLogoSmall.png" alt="WebsiteLogoSmall" style="width: 20%;height:20%;"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="mailto:rushfriendprojects@gmail.com"><font color="white"></font></a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="section">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h1 class="center">Windle</h1>
+
+            <p class="light center">a Pebble Time watchapp for grabbing windspeeds, written in PebbleJS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><img class="responsive-img" src="WindlePreview1.png"></h2>
+            <h5 class="center">Configure in a minute</h5>
+			<p class="light center">See instructions below to find the StationNR</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><img class="responsive-img" src="WindlePreview3.png"></h2>
+            <h5 class="center">Then choose your location</h5>
+
+            <p class="light center"></p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><img class="responsive-img" src="WindlePreview2.png"></h2>
+            <h5 class="center">Woosh!</h5>
+
+            <p class="light center">See the current windspeed of your selected location on your wrist.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="container">
+	<div class="video-container">
+        <iframe width="600" height="200" src="https://www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+  </div>
+
+	<div class="container">
+		<div class="col s12">
+			<h4 class="center"><br>FAQ</h4>
+			  <ul class="collapsible popout" data-collapsible="accordion">
+				<li>
+				  <div class="collapsible-header"><i class="material-icons">info_outline</i><b>Finding your station number</b></div>
+				  <div class="collapsible-body"><p>Watch the video above or follow the following instructions: <br><br> Go to <a href="https://www.windfinder.com/">Windfinder.com</a> and click on the "More" button on the top right of the page. <br> Then select "Weather widget" under "Services" and create a widget for your preffered weather station (! Make sure that the station has wind reports ! ) <br> On step 3 during the configuration you will see the html code. In that code look for <b>STATIONSNR: ****</b> <br>The **** is your StationNR to enter in the watchapps configuration page.</p></div>
+				</li>
+				<li>
+				  <div class="collapsible-header"><i class="material-icons">info_outline</i>Where is the configuration page?</div>
+				  <div class="collapsible-body"><p>In your <b>Pebble App</b> (where you managed watchfaces and watchapps ) go to the third from the left tab (Apps). <br> Look for <b>Windle</b> and click on the gear icon or click on the app and then "Settings"</p></div>
+				</li>
+				<li>
+				  <div class="collapsible-header"><i class="material-icons">info_outline</i>The settings wont update!</div>
+				  <div class="collapsible-body"><p>Due to the Clay (configuration page) inplementation in PebbleJS you need to <b>restart</b> the app on the watch after you saved the settings.</p></div>
+				</li>
+				<li>
+				  <div class="collapsible-header"><i class="material-icons">info_outline</i>App hangs at "Loading..."</div>
+				  <div class="collapsible-body"><p>Windle connects to the internet to get the current windspeeds. <br> Depending on your connection to the internet (Wifi, LTE etc) it may take a few seconds to load the data. <br> If the app hangs longer than 30 seconds, exit the app and check your phones internet connection. Then try again.</p></div>
+				</li>
+			  </ul>
+		  </div>
+		  </div>
+
+  <footer class="page-footer red darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Rushfriend?</h5>
+          <p class="grey-text text-lighten-4">Just a username inspired from my pet, a russian dwarf hamster, which only lived one-year but still lives on. Here, on the internet. </p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text"></h5>
+          <ul>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Find me online:</h5>
+          <ul>
+		  <li><a class="white-text" href="https://www.reddit.com/user/Rushfriend_NL/"><font color="orange">Reddit</font> Rushfriend_NL</a></li>
+            <li><a class="white-text" href="#!"><font color="#7289DA">Discord</font> Rushfriend #1550</a></li>
+            <li><a class="white-text" href="mailto:rushfriendprojects@gmail.com"><font color="blue">Email</font> rushfriendprojects@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Template by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>, Content by Rushfriend Projects
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
