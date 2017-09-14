@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: BoomBox;
-    src: url('BoomBox.ttf.svg') format('svg');
+    src: url('BoomBox.ttf.svg');
 }
 
 boombox {
