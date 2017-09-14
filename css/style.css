@@ -8,10 +8,10 @@
 
  @font-face {
     font-family: 'BoomBox';
-    src:url('BoomBox.ttf.woff') format('woff'),
-        url('BoomBox.ttf.svg#BoomBox') format('svg'),
-        url('BoomBox.ttf.eot'),
-        url('BoomBox.ttf.eot?#iefix') format('embedded-opentype'); 
+    src:url('../customfonts/BoomBox.ttf.woff') format('woff'),
+        url('../customfonts/BoomBox.ttf.svg#BoomBox') format('svg'),
+        url('../customfonts/BoomBox.ttf.eot'),
+        url('../customfonts/BoomBox.ttf.eot?#iefix') format('embedded-opentype'); 
         font-weight: normal;
         font-style: normal;
 }
