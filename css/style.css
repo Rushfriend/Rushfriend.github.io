@@ -9,9 +9,9 @@
  @font-face {
     font-family: 'BoomBox';
     src:url('../Rushfriend.github.io/customfonts/BoomBox.ttf.woff') format('woff'),
-        url('../Rushfriend.github.io/customfonts/BoomBox.ttf.svg#BoomBox') format('svg'),
+        url('../Rushfriend.github.io/customfonts/BoomBox.ttf.svg') format('svg'),
         url('../Rushfriend.github.io/customfonts/BoomBox.ttf.eot'),
-        url('../Rushfriend.github.io/customfonts/BoomBox.ttf.eot?#iefix') format('embedded-opentype'); 
+        url('../Rushfriend.github.io/customfonts/BoomBox.ttf.eot') format('embedded-opentype'); 
         font-weight: normal;
         font-style: normal;
 }
