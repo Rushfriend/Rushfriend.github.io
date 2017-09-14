@@ -12,17 +12,25 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	
   <style>
-      @font-face { font-family: BoomBox; src: url('BoomBox.TTF'); } 
-      boombox {
-         font-family: BoomBox
-      }
-    </style>
+     @font-face {
+    font-family: 'BoomBox';
+    src:url('BoomBox.ttf.woff') format('woff'),
+        url('BoomBox.ttf.svg#BoomBox') format('svg'),
+        url('BoomBox.ttf.eot'),
+        url('BoomBox.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+    boombox {
+	  font-family: BoomBox;
+	  }
+</style>
 	
 </head>
 <body>
   <nav class="blue darken-3" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><font face="BoomBox" color="white">Rushfriend</font></a>
+      <a id="logo-container" href="#" class="brand-logo boombox">Rushfriend</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#"><font color="white">Support</font></a></li>
       </ul>
